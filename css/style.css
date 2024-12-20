@@ -63,7 +63,9 @@ body {
 }
 
 .modal-content button {
+    background-color: #548fce;
     color: #fff;
+
     /* Textul din câmpuri și butoane */
 }
 
@@ -92,6 +94,7 @@ body {
     /* Textul din câmpuri și butoane */
     background-color: #fcffce;
 }
+
 /* Stil pentru modal */
 .modalabout {
     display: none;
@@ -122,9 +125,9 @@ body {
 }
 
 .close-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
+    position: relative;
+    top: -10px;
+    right: -150px;
     font-size: 20px;
     cursor: pointer;
     color: #888;
@@ -135,6 +138,7 @@ body {
 .close-button:hover {
     color: #000;
 }
+
 .menu-button {
     position: absolute;
     width: 20px;
@@ -165,4 +169,31 @@ body {
 
 .menu-button:hover {
     background-color: #737373;
+}
+
+.login-button {
+    display: relative;
+    /* Aliniază icon-ul și textul orizontal */
+    align-items: center;
+    /* Centrează vertical */
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button .icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+    /* Spațiu între icon și text */
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+    /* Culoare mai închisă la hover */
 }
