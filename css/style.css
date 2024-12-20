@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    opacity: 100%;
+    transition: opacity 1s ease;
+    box-sizing: border-box;
+    /*display: flex;
+    flex-direction: column;
+    margin: 20px;
+            
+            
+            align-items: center; */
+}
+.modal {
+    display: none;
+    /* Utilizează flexbox pentru a centra conținutul */
+    justify-content: center;
+    /* Centrează orizontal */
+    align-items: center;
+    /* Centrează vertical */
+    position: fixed;
+    /* Poziție fixă pentru a acoperi întreaga pagină */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Fundal semi-transparent */
+    z-index: 1000;
+}
+
+.modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    top: 50;
+    left: 50;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+    /* Oferă o lățime fixă */
+    max-width: 90%;
+    /* Se ajustează pe ecrane mici */
+}
+
+.modal-content input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 90%;
+}
+
+.modal-content button {
+    padding: 10px 20px;
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.modal-content button {
+    color: #fff;
+    /* Textul din câmpuri și butoane */
+}
+
+.modal-content button:hover {
+    background-color: #0056b3;
+}
+
+.modal-content h2 {
+    color: #333;
+    /* Gri închis pentru titluri */
+}
+
+.modal-content label {
+    color: #555;
+    /* Gri deschis pentru etichete */
+}
+
+
+.modal-content input {
+    color: #000;
+    /* Textul din câmpuri și butoane */
+}
+
+.modal-content input:hover {
+    color: #555555;
+    /* Textul din câmpuri și butoane */
+    background-color: #fcffce;
+}
+/* Stil pentru modal */
+.modalabout {
+    display: none;
+    /* Ascunsă implicit */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Fundal semi-transparent */
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+}
+
+.modalabout-content {
+    position: relative;
+    /* Poziționare relativă pentru a ancora butonul */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #333;
+
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #888;
+    font-weight: bold;
+    /* Să fie mai vizibil */
+}
+
+.close-button:hover {
+    color: #000;
+}
+.menu-button {
+    position: absolute;
+    width: 20px;
+    /* Dimensiunea butonului */
+    height: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 4px 4px;
+    border: solid #ccc 2px;
+    top: 17px;
+    left: 17px;
+}
+
+.menu-button div {
+    height: 3px;
+    /* Grosimea liniilor */
+    width: 100%;
+    background-color: #ccc;
+    /* Culoarea liniilor */
+    border-radius: 4px;
+    /* Colțuri rotunjite */
+
+
+}
+
+.menu-button:hover {
+    background-color: #737373;
+}
