@@ -11,7 +11,10 @@ This project includes:
 ## Project Structure
 - `index.html`: The main HTML file.
 - `styles.css`: The CSS file for styling.
-- `script.js`: The JavaScript file for functionality.
+- `about.js`: The JavaScript file for about modal window functionality .
+- `login.js`: The JavaScript file for login modal window functionality.
+- `folding.js`: The JavaScript file for folding list functionality.
+
 
 ## Usage Instructions
 1. Open `index.html` in your browser.
