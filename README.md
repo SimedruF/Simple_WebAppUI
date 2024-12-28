@@ -1,4 +1,7 @@
-# Project: Modal Window and Folding List
+# Project: Simple WebAppUI
+1. Modal Window 
+2. Login modal window
+3. Folding List
 
 ## Description
 This project includes:
