@@ -1,27 +1,26 @@
-# Proiect: Modal Window și Folding List
+# Project: Modal Window and Folding List
 
-## Descriere
-Acest proiect include:
-1. Test simplu de fereastră modală folosind HTML, CSS și JavaScript.
-2. Listă pliabilă simplă.
+## Description
+This project includes:
+1. A simple modal window test using HTML, CSS, and JavaScript.
+2. A simple folding list.
 
-## Structura Proiectului
-- `index.html`: Fișierul principal HTML.
-- `styles.css`: Fișierul CSS pentru stilizare.
-- `script.js`: Fișierul JavaScript pentru funcționalitate.
+## Project Structure
+- `index.html`: The main HTML file.
+- `styles.css`: The CSS file for styling.
+- `script.js`: The JavaScript file for functionality.
 
-## Instrucțiuni de Utilizare
-1. Deschide `index.html` în browser.
-2. Apasă pe butonul pentru a deschide fereastra modală.
-3. Folosește lista pliabilă pentru a vedea mai multe informații.
+## Usage Instructions
+1. Open `index.html` in your browser.
+2. Click the button to open the modal window.
+3. Use the folding list to view more information.
 
-## Exemple de Cod
+## Code Examples
 ```html
-<!-- Exemplu de cod HTML -->
+<!-- HTML Code Example -->
 <div class="modal">
   <div class="modal-content">
     <span class="close-button">&times;</span>
-    <p>Acesta este un exemplu de fereastră modală.</p>
+    <p>This is an example of a modal window.</p>
   </div>
 </div>
-
