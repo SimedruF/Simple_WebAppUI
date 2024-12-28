@@ -197,3 +197,53 @@ body {
     background-color: #0056b3;
     /* Culoare mai închisă la hover */
 }
+
+.fold-section {
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.fold-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    padding: 10px;
+    color: var(--footer-bgr-color);
+}
+
+.fold-icon {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--shadow-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    /* Dimensiunea cercului */
+    height: 24px;
+    /* Dimensiunea cercului */
+    border: 1px solid var(--shadow-color);
+    /* Conturul cercului */
+    border-radius: 50%;
+    /* Face forma circulară */
+    text-align: center;
+    line-height: 24px;
+}
+
+.fold-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.fold-content {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease-in-out;
+    background-color: #f1f1f1;
+    color: var(--footer-bgr-color);
+    padding: 0 10px;
+}
