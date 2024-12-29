@@ -2,11 +2,13 @@
 1. Modal Window 
 2. Login modal window
 3. Folding List
+4. Glide button for switching the theme
 
 ## Description
 This project includes:
 1. A simple modal window test using HTML, CSS, and JavaScript.
 2. A simple folding list.
+3. A glide button for switching the theme
 
 ## Project Structure
 - `index.html`: The main HTML file.
@@ -14,6 +16,7 @@ This project includes:
 - `about.js`: The JavaScript file for about modal window functionality .
 - `login.js`: The JavaScript file for login modal window functionality.
 - `folding.js`: The JavaScript file for folding list functionality.
+- `switch_theme.js`: The JavaScript file for glide button for switching the theme functionality.
 
 
 ## Usage Instructions

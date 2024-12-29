@@ -1,7 +1,7 @@
 // Select the elements
 const menuButton=document.getElementById('menuButton');
 const modal=document.getElementById('modalabout');
-const closeButton=document.getElementById('closeButton');
+const closeButtonAbout=document.getElementById('closeButtonAbout');
 
 // Show modal window click pe buton
 menuButton.addEventListener('click', ()=> {
@@ -9,7 +9,7 @@ menuButton.addEventListener('click', ()=> {
     });
 
 // Close modal window when close button is clicked  
-closeButton.addEventListener('click', ()=> {
+closeButtonAbout.addEventListener('click', ()=> {
         modal.style.display='none';
     });
 

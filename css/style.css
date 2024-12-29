@@ -247,3 +247,89 @@ body {
     color: var(--footer-bgr-color);
     padding: 0 10px;
 }
+
+
+.li-glides {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.glide-button-green {
+    width: 40px;
+    /* Lățimea butonului mai mică */
+    height: 20px;
+    /* Înălțimea butonului mai mică */
+    background-color: #b3ebc1;
+    border-radius: 50px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.glide-button-green.active {
+    background-color: #34a853;
+}
+
+.glide-button-green.active .slider {
+    left: 22px;
+    /* Poziția finală a slider-ului */
+}
+
+.glide-button-blue {
+    width: 40px;
+    /* Lățimea butonului mai mică */
+    height: 20px;
+    /* Înălțimea butonului mai mică */
+    background-color: #aac0fa;
+    border-radius: 50px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.glide-button-blue.active {
+    background-color: #4557df;
+}
+.glide-button-blue.active .slider {
+    left: 22px;
+    /* Poziția finală a slider-ului */
+}
+
+.glide-button-red {
+    width: 40px;
+    /* Lățimea butonului mai mică */
+    height: 20px;
+    /* Înălțimea butonului mai mică */
+    background-color: #f8b7b7;
+    border-radius: 50px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.glide-button-red.active {
+    background-color: #e12121;
+}
+
+.glide-button-red.active .slider {
+    left: 22px;
+    /* Poziția finală a slider-ului */
+}
+
+.slider {
+    width: 16px;
+    /* Lățimea slider-ului mai mică */
+    height: 16px;
+    /* Înălțimea slider-ului mai mică */
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    /* Centrat vertical */
+    left: 2px;
+    /* Poziția inițială */
+    transition: left 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}

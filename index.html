@@ -15,7 +15,7 @@
 <body>
 <div id="loginModal" class="modal">
     <div class="modal-content" id="loginModalWnd">
-        <span class="close-button" id="closeButton">&times;</span>
+        <span class="close-button" id="closeButtonLogin">&times;</span>
         <h2>Login</h2>
         <form id="loginForm">
             <label for="username">Username:</label>
@@ -26,20 +26,21 @@
         </form>
     </div>
 </div>
-    <!-- Modal window -->
-    <div id="modalabout" class="modalabout">
-        <div class="modalabout-content">
-            <span class="close-button" id="closeButton">&times;</span>
-            <p>Modal window Automatic House Systems </p>
-            <p>Website version: 0.0.1</p>
-        </div>
+    
+<!-- Modal window -->
+<div id="modalabout" class="modalabout">
+    <div class="modalabout-content">
+        <span class="close-button" id="closeButtonAbout">&times;</span>
+        <p>Modal window Automatic House Systems </p>
+        <p>Website version: 0.0.1</p>
     </div>
+</div>
 
-    <div class="menu-button" id="menuButton">
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
+<div class="menu-button" id="menuButton">
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
 
 <button class="login-button" id="loginButton">
     <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -52,10 +53,6 @@
 </button>
 
 
-    
-    
-
-
 <div class="container">
     <section id="about" class="section">
         <h1>    Folding list </h1>
@@ -65,24 +62,37 @@
                 <span class="fold-icon">+</span>
             </div>
             <div class="fold-content">
-                <p>Fold content</p>
+                <p>Fold content
+                            <div class="glide-button-red">
+                                <div class="slider"></div>
+                            </div>
+
+                </p>
             </div>
         </div>
 
         <div class="fold-section">
             <div class="fold-header">
-                <span class="fold-title">Fold title 1</span>
+                <span class="fold-title">Fold title 2</span>
                 <span class="fold-icon">+</span>
             </div>
             <div class="fold-content">
-                <p>Fold content</p>
+                <p>Fold content
+                            <div class="glide-button-green">
+                                <div class="slider"></div>
+                            </div>
+                </p>
             </div>
         </div>
     </section>
 </div>
 
+
+
+<script src="javascript/about.js"></script>
+<script src="javascript/switch_theme.js"></script>
 <script src="javascript/folding.js"></script>
 <script src="javascript/login.js"></script>
-<script src="javascript/about.js"></script>
+
 </body>
 </html>
