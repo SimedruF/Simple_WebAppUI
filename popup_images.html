@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Automatic House Systems - Modal window test">
+    <title>Automatic House Systems</title>
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+
+    <!-- Container for images -->
+    <div class="image-gallery">
+        <img src="images/rama_foto_1.png" alt="Sibiu 1" style="width: 100%; max-width: 300px; float: center; margin-left: 20px; cursor:pointer;"  onclick="openPopup(this.src)">
+        <img src="images/rama_foto_2.png" alt="Sibiu 2" style="width: 100%; max-width: 300px; float: center; margin-left: 20px; cursor:pointer;"  onclick="openPopup(this.src)">
+        <!-- Add more images as needed -->
+    </div>
+
+
+<!-- Popup-ul ascuns -->
+<div id="popup" class="popup-overlay-img" onclick="closePopup()">
+    <div class="popup-content-img" onclick="event.stopPropagation();">
+        <span class="close-btn" onclick="closePopup()">×</span>
+        <img id="popup-image" src="" alt="Imagine mare">
+    </div>
+</div>
+
+<script src="javascript/popup.js"></script>
+
+</body>
+</html>
