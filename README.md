@@ -13,10 +13,11 @@ This project includes:
 ## Project Structure
 - `index.html`: The main HTML file.
 - `styles.css`: The CSS file for styling.
-- `about.js`: The JavaScript file for about modal window functionality .
-- `login.js`: The JavaScript file for login modal window functionality.
+- `about.js`: The JavaScript file for showing an about modal window.
+- `login.js`: The JavaScript file for showing a login modal window.
 - `folding.js`: The JavaScript file for folding list functionality.
 - `switch_theme.js`: The JavaScript file for glide button for switching the theme functionality.
+- `popup.js`: The JavaScript file for displaing of a pop-up window for images .
 
 
 ## Usage Instructions
@@ -33,3 +34,20 @@ This project includes:
     <p>This is an example of a modal window.</p>
   </div>
 </div>
+
+## Pop-up window for images
+```html
+    <!-- Container for images -->
+    <div class="image-gallery">
+        <img src="images/rama_foto_1.png" alt="Sibiu 1" style="width: 100%; max-width: 300px; float: center; margin-left: 20px; cursor:pointer;"  onclick="openPopup(this.src)">
+        <img src="images/rama_foto_2.png" alt="Sibiu 2" style="width: 100%; max-width: 300px; float: center; margin-left: 20px; cursor:pointer;"  onclick="openPopup(this.src)">
+        <!-- Add more images as needed -->
+    </div>
+<!-- Popup-ul ascuns -->
+<div id="popup" class="popup-overlay-img" onclick="closePopup()">
+    <div class="popup-content-img" onclick="event.stopPropagation();">
+        <span class="close-btn" onclick="closePopup()">×</span>
+        <img id="popup-image" src="" alt="Imagine mare">
+    </div>
+</div>
+<script src="javascript/popup.js"></script>
