@@ -45,7 +45,7 @@ This project includes:
         <img src="images/rama_foto_2.png" alt="Sibiu 2" style="width: 100%; max-width: 300px; float: center; margin-left: 20px; cursor:pointer;"  onclick="openPopup(this.src)">
         <!-- Add more images as needed -->
     </div>
-<!-- Popup-ul ascuns -->
+<!-- hidden Popup -->
 <div id="popup" class="popup-overlay-img" onclick="closePopup()">
     <div class="popup-content-img" onclick="event.stopPropagation();">
         <span class="close-btn" onclick="closePopup()">×</span>
