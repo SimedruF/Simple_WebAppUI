@@ -1,14 +1,16 @@
-# Project: Simple WebAppUI
+# Simple WebAppUI
 1. Modal Window 
 2. Login modal window
 3. Folding List
 4. Glide button for switching the theme
+5. Pop-up window for displaing images
 
 ## Description
 This project includes:
 1. A simple modal window test using HTML, CSS, and JavaScript.
 2. A simple folding list.
 3. A glide button for switching the theme
+4. Pop-up window for displaing images
 
 ## Project Structure
 - `index.html`: The main HTML file.
