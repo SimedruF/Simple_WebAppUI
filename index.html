@@ -35,22 +35,69 @@
         <p>Website version: 0.0.1</p>
     </div>
 </div>
-
 <div class="menu-button" id="menuButton">
     <div></div>
     <div></div>
     <div></div>
 </div>
 
-<button class="login-button" id="loginButton">
-    <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4" />
-        <polyline points="10 17 15 12 10 7" />
-        <line x1="15" y1="12" x2="3" y2="12" />
-    </svg>
-    Login
-</button>
+<ul class="menu">
+    <li class="dropdown"><a href="index.html" class="dropdown-menu-button">Home</a>
+        <div class="dropdown-content">
+            <a href="https://www.automatic-house.ro/sp.html?name=projects" class="dropdown-link">Projects</a>
+            <a href="https://www.automatic-house.ro/contact.html?name=contact" class="dropdown-link">Contribute</a>
+         </div>
+    </li>
+    <li class="dropdown"><a href="#" clclass="dropdown"ass="dropdown-menu-button">Learn</a>
+        <div class="dropdown-content">
+            <a href="https://www.coursera.org/" class="dropdown-link">Coursera</a>
+            <a href="https://scholar.google.com/" class="dropdown-link">scholar.google</a>
+            <a href="https://www.edx.org/" class="dropdown-link">edX</a>
+            <a href="https://www.udacity.com/" class="dropdown-link">Udacity</a>
+            <a href="https://www.udemy.com/" class="dropdown-link">Udemy</a>
+            <a href="https://www.codecademy.com/" class="dropdown-link">Codecademy</a>
+            <a href="https://www.khanacademy.org/" class="dropdown-link">Khan Academy</a>
+            <a href="https://www.freecodecamp.org/" class="dropdown-link">FreeCodeCamp</a>
+            <a href="https://www.pluralsight.com/" class="dropdown-link">Pluralsight</a>           
+         </div>
+    </li>
+    <li class="dropdown">
+        <a href="#" class="dropdown-menu-button">FAQ</a>
+        <div id="faq" class="dropdown-content">
+            <a href="faq.html" class="dropdown-link">FAQ</a>
+            <a href="questions.html" class="dropdown-link">Questions</a>
+         </div>
+    </li>
+    <li class="dropdown">
+        <a href="#" class="dropdown-menu-button">User</a>
+        <div class="dropdown-content">
+            <a href="login.html" class="dropdown-link">Login</a>
+            <a href="logout.html" class="dropdown-link">Logout</a>
+         </div>
+    </li>
+    <li class="dropdown">
+        <button class="dropdown-menu-button userbtn-menu-right fa-solid fa-user" id="loginButton" title="More Info"></button>
+        <div class="dropdown-content" id="dropdownContent">
+            <a href="edit_user.html" class="dropdown-link">Edit</a>
+            <a href="logout.html" class="dropdown-link">Logout</a>
+        </div>
+    </li>
+    <li class="dropdown">
+        <button class="login-button" id="loginButton">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4" />
+                <polyline points="10 17 15 12 10 7" />
+                <line x1="15" y1="12" x2="3" y2="12" />
+            </svg>
+            Login
+        </button>
+    </li>
+    
+</ul>
+
+
+
 
 
 <div class="container">
@@ -84,10 +131,13 @@
                 </p>
             </div>
         </div>
-    </section>
-</div>
-
-
+        <div class="fold-section">
+            <div class="fold-header">
+                <span class="fold-title">Fold title 3</span>
+                <span class="fold-icon">+</span>
+            </div>
+            <div class="fold-content">
+                <p>Fold content
     <!-- Container for images -->
     <div class="image-gallery">
         <img src="images/rama_foto_1.png" alt="Sibiu 1"
@@ -98,6 +148,27 @@
             onclick="openPopup(this.src)">
         <!-- Add more images as needed -->
     </div>
+                </p>
+            </div>
+        </div>
+        <div class="fold-section">
+            <div class="fold-header">
+                <span class="fold-title">Fold title 4</span>
+                <span class="fold-icon">+</span>
+            </div>
+            <div class="fold-content">
+                <p>Fold content
+                            <div class="glide-button-green">
+                                <div class="slider"></div>
+                            </div>
+                </p>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+
     
     
     <!-- Popup-ul ascuns -->
@@ -115,6 +186,6 @@
 <script src="javascript/switch_theme.js"></script>
 <script src="javascript/folding.js"></script>
 <script src="javascript/login.js"></script>
-
+<script src="javascript/dropdown.js"></script>
 </body>
 </html>
